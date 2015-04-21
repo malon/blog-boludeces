@@ -131,10 +131,11 @@ NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Otros Blogs'
 NEST_COPYRIGHT = u'&copy; Las Boludeces de Gallega 2015'
 
-# # Static files
-# STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/logo.svg']
-# EXTRA_PATH_METADATA = {
-#     'extra/robots.txt': {'path': 'robots.txt'},
-#     'extra/favicon.ico': {'path': 'favicon.ico'},
-#     'extra/logo.svg': {'path': 'logo.svg'}
-# }
+# Static files
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/logo.svg': {'path': 'logo.svg'},
+    'extra/.gitignore_prod': {'path': '.gitignore'}
+}
