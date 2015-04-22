@@ -71,3 +71,10 @@ def publish():
         delete=True,
         extra_opts='-c',
     )
+
+def publishghp(msg):
+    preview() #builds publishconf.py
+    local("git add -A") #will commit allll files, be careful
+    local("git commit -m '%s'"%msg)
+    local("ghp-import -m '%s' -b gh-pages output"%msg)
+    local("git push --all")

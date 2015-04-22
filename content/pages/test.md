@@ -1,4 +1,4 @@
-Title: Sobre el blog
+Title: Nosotros
 Category: Buenos Aires
 Tags: buenos aires, gente, lenguaje
 Slug: test

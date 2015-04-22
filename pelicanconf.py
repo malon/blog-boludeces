@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 #          ('Jinja2', 'http://jinja.pocoo.org/'),
 #          ('You can modify those links in your config file', '#'),)
 LINKS = (('El diario de Passepartout', 'http://eldiariodepassepartout.blogspot.com/'),
-         ('Molaviajar', 'http://http://www.molaviajar.com//'),
+         ('Molaviajar', 'http://www.molaviajar.com//'),
          # ('Jinja2', 'http://jinja.pocoo.org/'),
          # ('You can modify those links in your config file', '#'),
          )
@@ -59,12 +59,12 @@ NEST_HEADER_IMAGES = 'gardel.resized.JPG'
 # SITESUBTITLE = u'My Awesome Blog'
 #MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 # Add header background image from content/images : 'background.jpg'
-NEST_HEADER_LOGO = '/images/logo2_gradiente.resized.png'
+NEST_HEADER_LOGO = '/images/logo3.resized.png'
 
 # index.html
-NEST_INDEX_HEAD_TITLE = u'Las Boludeces de la Gallega'
-NEST_INDEX_HEADER_TITLE = u'Las Boludeces de la Gallega'
-NEST_INDEX_HEADER_SUBTITLE = u'Aventuras de una gallega en Buenos Aires'
+NEST_INDEX_HEAD_TITLE = u'Boludeces a la gallega'
+NEST_INDEX_HEADER_TITLE = u'Boludeces a la gallega'
+NEST_INDEX_HEADER_SUBTITLE = u'Aventuras y ocurrencias de dos emigrantes modernos en la Argentina'
 NEST_INDEX_CONTENT_TITLE = u'Boludeces varias:'
 
 
@@ -81,10 +81,10 @@ NEST_ARTICLE_HEADER_BY = u'Por'
 NEST_ARTICLE_HEADER_MODIFIED = u'modificado'
 NEST_ARTICLE_HEADER_IN = u'en categoría'
 # author.html
-NEST_AUTHOR_HEAD_TITLE = u'Posts by'
-NEST_AUTHOR_HEAD_DESCRIPTION = u'Posts by'
-NEST_AUTHOR_HEADER_SUBTITLE = u'Posts archives'
-NEST_AUTHOR_CONTENT_TITLE = u'Posts'
+# NEST_AUTHOR_HEAD_TITLE = u'Posts by'
+# NEST_AUTHOR_HEAD_DESCRIPTION = u'Posts by'
+# NEST_AUTHOR_HEADER_SUBTITLE = u'Posts archives'
+# NEST_AUTHOR_CONTENT_TITLE = u'Posts'
 # authors.html
 # NEST_AUTHORS_HEAD_TITLE = u'Author list'
 # NEST_AUTHORS_HEAD_DESCRIPTION = u'Author list'
@@ -129,13 +129,13 @@ NEST_SITEMAP_ATOM_LINK = u'Atom Feed'
 NEST_SITEMAP_RSS_LINK = u'RSS Feed'
 NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Otros Blogs'
-NEST_COPYRIGHT = u'&copy; Las Boludeces de Gallega 2015'
+#NEST_COPYRIGHT = u'&copy; Las Boludeces de Gallega 2015'
 
 # Static files
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/logo.svg': {'path': 'logo.svg'},
+   # 'extra/robots.txt': {'path': 'robots.txt'},
+    # 'extra/favicon.ico': {'path': 'favicon.ico'},
+    # 'extra/logo.svg': {'path': 'logo.svg'},
     'extra/.gitignore_prod': {'path': '.gitignore'}
 }
