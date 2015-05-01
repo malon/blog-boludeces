@@ -1,4 +1,4 @@
 # blog-boludeces
-Blog "Las Boludeces de la Gallega"
+Blog "Boludeces a la Gallega"
 
-This is the code for a travels blog called "Las Boludeces de la Gallega" about my experiences and life in Buenos Aires for almost a year.
+This is the code for a travels blog called "Boludeces a la Gallega" about my experiences and life in Buenos Aires for almost a year.

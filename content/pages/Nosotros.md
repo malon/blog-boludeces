@@ -4,7 +4,6 @@ Tags: BuenosAires, gente, idioma
 Slug: Nosotros
 Authors: Marta
 Illustration: nosotros.resized.JPG
-Date: 2015-02-25 19:20
 
 
 

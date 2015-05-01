@@ -139,5 +139,6 @@ EXTRA_PATH_METADATA = {
    # 'extra/robots.txt': {'path': 'robots.txt'},
     # 'extra/favicon.ico': {'path': 'favicon.ico'},
     # 'extra/logo.svg': {'path': 'logo.svg'},
-    'extra/.gitignore_prod': {'path': '.gitignore'}
+    'extra/.gitignore_prod': {'path': '.gitignore'},
+    'extra/CNAME': {'path': 'CNAME'}
 }
