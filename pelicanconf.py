@@ -55,7 +55,8 @@ MD_EXTENSIONS = ['extra']
 THEME = 'nest'
 #THEME = 'notmyidea'
 
-NEST_HEADER_IMAGES = 'gardel.resized.JPG'
+#NEST_HEADER_IMAGES = 'gardel.resized.JPG'
+NEST_HEADER_IMAGES = 'gardel.JPG'
 # SITESUBTITLE = u'My Awesome Blog'
 #MENUITEMS = [('Homepage', '/'),('Categories','/categories.html')]
 # Add header background image from content/images : 'background.jpg'
@@ -129,7 +130,8 @@ NEST_SITEMAP_ATOM_LINK = u'Atom Feed'
 NEST_SITEMAP_RSS_LINK = u'RSS Feed'
 NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Otros Blogs'
-#NEST_COPYRIGHT = u'&copy; Las Boludeces de Gallega 2015'
+NEST_COPYRIGHT = u'&copy; Las Boludeces de Gallega 2015'
+NEST_FOOTER_HTML = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.'
 
 # Static files
 STATIC_PATHS = ['images', 'extra']
