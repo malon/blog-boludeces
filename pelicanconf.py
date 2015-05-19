@@ -20,6 +20,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+
 # Blogroll
 # LINKS = (('Pelican', 'http://getpelican.com/'),
 #          ('Python.org', 'http://python.org/'),
@@ -133,12 +134,15 @@ NEST_LINKS_COLUMN_TITLE = u'Otros Blogs'
 #NEST_COPYRIGHT = u'&copy; Las Boludeces de Gallega 2015'
 NEST_FOOTER_HTML = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.'
 
+################## Add custom css #########################
+CUSTOM_CSS = 'static/custom.css'
+
 # Static files
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {
    # 'extra/robots.txt': {'path': 'robots.txt'},
     # 'extra/favicon.ico': {'path': 'favicon.ico'},
-    # 'extra/logo.svg': {'path': 'logo.svg'},
+    'extra/custom.css': {'path': 'static/custom.css'},
     'extra/.gitignore_prod': {'path': '.gitignore'},
     'extra/CNAME': {'path': 'CNAME'}
 }
